@@ -1,7 +1,9 @@
 
 public class guess_number {
 	public static void main(String[] args) {
-		System.out.println("Hello World!");
-		System.out.println("Hello World Again!");
+		String name = "Mickey";
+		
+		System.out.println("Hello " + name );
+		System.out.println("Hello " + name + " Again!");
 	}
 }
