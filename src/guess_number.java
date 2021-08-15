@@ -9,8 +9,10 @@ public class guess_number {
 		
 		if (answer == guess) {
 			System.out.println("大正解！");
+		}else if (answer > guess) {
+			System.out.println("もっと大きい数字です！");
 		} else {
-			System.out.println("残念でしたww");
+			System.out.println("もっと小さい数字です！");
 		}
 	}
 }
